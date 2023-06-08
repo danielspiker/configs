@@ -1,19 +1,19 @@
 server:
   port: 8080
-spring:
-  security:
-    oauth2:
-      resourceserver:
-        jwt:
-          issuer-uri: https://accounts.google.com
-          jwk-set-uri: https://www.googleapis.com/oauth2/v3/certs
-      client:
-        registration:
-          google:
-            client-id: 1016093139191-9fnliha5v8im8jk8omv6sgmhpak474j1.apps.googleusercontent.com
-            client-secret: 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
-            scope: openid
-            redirect-uri: http://localhost:8080/login/oauth2/code/google        
+#spring:
+# security:
+#    oauth2:
+#      resourceserver:
+#        jwt:
+#          issuer-uri: https://accounts.google.com
+#          jwk-set-uri: https://www.googleapis.com/oauth2/v3/certs
+#      client:
+#        registration:
+#          google:
+#            client-id: 1016093139191-9fnliha5v8im8jk8omv6sgmhpak474j1.apps.googleusercontent.com
+#            client-secret: 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
+#            scope: openid
+#            redirect-uri: http://localhost:8080/login/oauth2/code/google        
   cloud:
     gateway:
       default-filters:
