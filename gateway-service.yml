@@ -11,7 +11,7 @@ server:
 #        registration:
 #          google:
 #            client-id: 1016093139191-9fnliha5v8im8jk8omv6sgmhpak474j1.apps.googleusercontent.com
-#            client-secret: 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
+#            client-secret: ------------------------------------
 #            scope: openid
 #            redirect-uri: http://localhost:8080/login/oauth2/code/google        
   cloud:
