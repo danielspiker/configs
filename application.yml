@@ -25,8 +25,8 @@ management:
     health:
       show-details: always
 info:
-  author: Tulio L. Viglione
-  mail: tulio.l.viglione@gmail.com
+  author: Daniel M. Nascimento
+  mail: danielmnascimento@gmail.com
   cel: 313313131
 server:
   port: ${PORT:9999}
