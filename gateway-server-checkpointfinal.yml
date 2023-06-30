@@ -16,3 +16,8 @@ spring:
           uri: lb://SERIE-SERVICE
           predicates:
             - Path=/serie-api/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: apigateway
+                fallbackUri: forward:/fallback/usuarioFallback
